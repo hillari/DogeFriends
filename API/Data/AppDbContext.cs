@@ -11,4 +11,6 @@ public class AppDbContext : DbContext
     }
 
     public DbSet<AppUser> AppUsers { get; set; }
+
+    public DbSet<Dog> Dogs { get; set; }
 }
